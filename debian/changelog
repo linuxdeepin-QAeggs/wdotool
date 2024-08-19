@@ -1,0 +1,6 @@
+wdotool (1.0.0) UNRELEASED; urgency=low
+
+  * Initial release. Closes: #nnnn
+    <nnnn is the bug number of your ITP>
+
+ -- zhaoyouzhi <zhaoyouzhi@uniontech.com>  Mon, 19 Aug 2024 08:58:41 +0800

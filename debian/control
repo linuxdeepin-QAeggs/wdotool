@@ -1,0 +1,21 @@
+Source: wdotool
+Section: admin
+Priority: optional
+Maintainer: zhaoyouzhi <zhaoyouzhi@uniontech.com>
+Build-Depends: debhelper (>= 8.0.0),
+ pkg-config,
+ cmake,
+ qttools5-dev-tools,
+ qtbase5-private-dev,
+ libgio-qt-dev,
+ libkf5wayland-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/linuxdeepin-QAeggs/wdotool
+
+Package: wdotool
+Architecture: any
+Multi-Arch: foreign
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ xclip (>=0.10)
+Description: wdotool allows you to simulate keyboard input, mouse activity, and writing/reading to/from the clipboard through programming in X11 and Wayland desktop environments, using the uinput kernel module, X11's XTEST extension and other Xlib functions, as well as the kwayland library.

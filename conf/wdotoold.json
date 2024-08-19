@@ -1,6 +1,9 @@
 {
     "screen_width": 1920,
     "screen_height": 1080,
-    "resolution": 10,
+    "resolution_w": 12,
+    "resolution_h": 12,
+    "log_level": "DEBUG",
+    "ip": "127.0.0.1",
     "port": 65432
 }
